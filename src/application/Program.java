@@ -5,6 +5,8 @@
  */
 package application;
 
+import boardgame.Position;
+
 /**
  *
  * @author enzoappi
@@ -13,7 +15,8 @@ public class Program {
     
     public static void main(String[] args) {
         
-        System.out.println("Chess game project initiated");
+        Position position = new Position(5, 2);
+        System.out.println(position);
         
     }
     
